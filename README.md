@@ -18,19 +18,19 @@ Available commands:
 
 Installation
 ------------
-* Install fabric (requires python)
-  ```
+Install fabric (requires python)
+```
     pip install fabric
-  ```
-* Save fabfile.py into a python folder
-  ```
+```
+Save fabfile.py into a python folder
+```
     mkdir scripts
     cd scripts
     echo > __init__.py
     wget https://raw.github.com/itaifrenkel/elasticsearch-ec2-fabric/master/fabfile.py
-  ```
-* Create a new file ~/.fabricrc with ec2 configuration
-  Make sure to modify the configuration based on your EC2 keypair and security credentials
+```
+Create a new file ~/.fabricrc with ec2 configuration
+Make sure to modify the configuration based on your EC2 keypair and security credentials
 ```
 aws_access_key_id=AKIAJUMCDAZTUBL6XKWA
 aws_secret_access_key=DqmsPX8FspyEf367nU4Yr9J0uuNJ05qjoA1tjGnG
