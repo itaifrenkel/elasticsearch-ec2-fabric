@@ -39,7 +39,7 @@ def stop_es():
 
 @task
 def find_es():
-    """Prints elasticsearch machine instance ip adress"""
+    """Prints elasticsearch machine instance ip address"""
     return find_running_machine(env.elasticsearch_instance_name)
 
 @task
