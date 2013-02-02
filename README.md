@@ -11,7 +11,7 @@ Available commands:
 
     start_es   Starts the elasticsearch machine instance
     stop_es    Stops the elasticsearch machine instance
-    find_es    Prints elasticsearch machine instance ip adress
+    find_es    Prints elasticsearch machine instance ip address
     ssh_es     ssh the elasticsearch machine instance
     backup_es  Snapshots the elasticsearch EBS drive to S3
 ```
